@@ -67,7 +67,7 @@ b. Compare differences in performance between the cross-validation and test resu
 
 c. Create at least one visualization comparing test set model performances across the 3 models
 
-# Authors
+## Authors
 
 - Marco A. Lapcevic (Liaison)
 -
