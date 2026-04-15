@@ -56,9 +56,17 @@ c. Normalize or standardize features if required
 
 a. Create at least 3 meaningful visualizations to explore data distributions and relationships 
 
+```
+
+```
+
 ## 3. Model Building
 
 a. Split the dataset into 75% training and 25% testing sets
+
+```
+
+```
 
 b. Train the following classification modes:
 
@@ -82,10 +90,17 @@ Compare model performance across all 3 models using the following metrics:
 
 ## 5. Fairness and Bias Evaluation
 
-a. Evaluate your models for potential bias or unfairness across 
-subgroups (e.g., sex, age group, race if available) by choosing at least one demographic variable from your dataset (e.g., gender, age group).
+a. Evaluate your models for potential bias or unfairness across subgroups (e.g., sex, age group, race if available) by choosing at least one demographic variable from your dataset (e.g., gender, age group).
+
+```
+
+```
 
 b. If bias is found, perform data processing steps to mitigate bias in the data. If bias is not found, be prepared to justify why mitigation steps are not needed.
+
+```
+
+```
 
 ## 6. Test Set Model Evaluation
 
@@ -101,7 +116,15 @@ a. Compare model performance across all 3 models using the following metrics:
 
 b. Compare differences in performance between the cross-validation and test results.
 
+```
+
+```
+
 c. Create at least one visualization comparing test set model performances across the 3 models
+
+```
+
+```
 
 ## Authors
 
