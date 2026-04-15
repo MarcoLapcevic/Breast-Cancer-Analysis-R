@@ -42,7 +42,15 @@ colnames(data) <- c(
 
 b. Encode categorical variables as needed
 
+```
+
+```
+
 c. Normalize or standardize features if required
+
+```
+
+```
 
 ## 2. Data Visualization
 
