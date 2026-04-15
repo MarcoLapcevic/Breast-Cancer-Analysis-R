@@ -12,6 +12,34 @@ classification tasks specifically predicting whether a patient will experience a
 
 a. Handle missing values appropriately
 
+```
+# Load libraries
+library(tidyverse)
+library(caret)
+
+# Load the cleaned dataset
+data <- read.csv("breast-cancer.csv", header = TRUE, stringsAsFactors = FALSE)
+list.files()
+
+# Inspect structure
+str(data)
+summary(data)
+
+# Fix column names
+colnames(data) <- c(
+  "Class",          # recurrence-events / no-recurrence-events
+  "Age",
+  "Menopause",
+  "TumorSize",
+  "InvNodes",
+  "NodeCaps",
+  "DegMalig",
+  "Breast",
+  "BreastQuad",
+  "Irradiat"
+)
+```
+
 b. Encode categorical variables as needed
 
 c. Normalize or standardize features if required
