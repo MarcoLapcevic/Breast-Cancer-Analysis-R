@@ -18,7 +18,7 @@ library(tidyverse)
 library(caret)
 
 # Load the cleaned dataset
-data <- read.csv("breast-cancer.csv", header = TRUE, stringsAsFactors = FALSE)
+data <- read.csv("breast-cancer.csv")
 list.files()
 
 # Inspect structure
