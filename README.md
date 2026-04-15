@@ -19,7 +19,6 @@ library(caret)
 
 # Load the cleaned dataset
 data <- read.csv("breast-cancer.csv")
-list.files()
 
 # Inspect structure
 str(data)
