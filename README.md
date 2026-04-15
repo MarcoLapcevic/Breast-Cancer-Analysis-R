@@ -4,6 +4,7 @@ This project uses three datasets:
 
 - breast-cancer.data
 - breast-cancer_1.name
+- NOTE: I have yet to add the third dataset file here
 
 These datasets are derived from the Breast Cancer dataset specifically from th UCI Machine Learning Repository, and are used for 
 classification tasks specifically predicting whether a patient will experience a recurrence of breast cancer.
